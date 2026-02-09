@@ -280,7 +280,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Software Engineer / Mobile Developer',
     company: 'Lexmark',
-    companyLogo: '/img/icons/common/LexmarkLogo.jpg',
+    companyLogo: '/img/icons/common/lexmark-logo.jpg',
     date: 'August 2021 – October 2022',
     desc: 'Implemented mobile development for Native Android and iOS applications.',
     descBullets: [
@@ -296,7 +296,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Software Engineer III',
     company: 'NCR Corporation',
-    companyLogo: '/img/icons/common/NCRLogo.jpeg',
+    companyLogo: '/img/icons/common/ncr-logo.jpeg',
     date: 'November 2017 – May 2021',
     desc: 'Implemented development and code reviews for NCR RAP service and NCR Xamarin RAP projects in both iOS and Android platforms. Led development of high quality software applications that meet requirements, reuse software components, and streamline support. Performed unit and UI automation tests.',
     descBullets: [
@@ -340,7 +340,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'CE-R & D Technical Support Staff',
     company: 'Nozomi Fortune Services, Inc.',
-    companyLogo: '/img/icons/common/NozomiLogo.jpeg',
+    companyLogo: '/img/icons/common/nozomi-logo.jpeg',
     date: 'February 2006 – August 2007',
     desc: 'Performed system tests for Lexmark printers.',
     descBullets: [
