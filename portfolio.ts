@@ -27,7 +27,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://jekeytimoy29.github.io/',
+  url: 'https://jekeytimoy29.github.io/my-portfolio-v2-with-aws/',
   linkedin: 'https://www.linkedin.com/in/timothy-jake-flordelis/',
   github: 'https://github.com/jekeytimoy29',
   facebook: 'https://www.facebook.com/timothyjake.flordelis',
