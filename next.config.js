@@ -1,11 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export", // REQUIRED for GitHub Pages
-  basePath: "/my-repo-name",
-  assetPrefix: "/my-repo-name/",
-  images: {
-    unoptimized: true, // required for static export
-  },
-};
+const repo = process.env.GITHUB_REPOSITORY?.split("/")[1] || "";
 
-module.exports = nextConfig;
+module.exports = {
+  output: "export",
+  basePath: repo ? `/${repo}` : "",
+  assetPrefix: repo ? `/${repo}/` : "",
+  images: { unoptimized: true },
+};
