@@ -1,9 +1,11 @@
-module.exports = {
-  output: 'export',
-  basePath: '/my-portfolio-v2-with-aws',
-  assetPrefix: '/my-portfolio-v2-with-aws/',
-  reactStrictMode: false,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export", // REQUIRED for GitHub Pages
+  basePath: "/my-repo-name",
+  assetPrefix: "/my-repo-name/",
   images: {
-    unoptimized: true
+    unoptimized: true, // required for static export
   },
 };
+
+module.exports = nextConfig;
