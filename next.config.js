@@ -1,6 +1,11 @@
+const isProd = process.env.NODE_ENV === 'production';
+const repo = 'my-portfolio-v2-with-aws';
+
 module.exports = {
-  reactStrictMode: false,
+  output: 'export',
+  basePath: isProd ? `/${repo}` : '',
+  assetPrefix: isProd ? `/${repo}/` : '',
   images: {
-    domains: ['avatars.githubusercontent.com']
+    unoptimized: true,
   },
 };
